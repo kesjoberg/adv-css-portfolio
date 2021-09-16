@@ -1,0 +1,84 @@
+/* header styling */
+header {
+ 
+    width: 100%;
+    height: 60px;
+    background-color: #3f87a6;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    align-content: center;
+   
+}
+
+header h1 {
+    display: flex;
+    justify-content:left;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    list-style-type: none;
+  }
+
+  nav a {
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+  }
+
+/* The banner below the header with image and title */
+.banner {
+    display: flex;
+    width:100%;
+    padding: 1%;
+    height: 100px;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+.banner p{
+    color:black;
+    font-size: large;
+    padding: 40px;
+}
+#profile {
+    width 40px;
+    height: 100px;
+    
+}
+ 
+/* Main content of the website */
+main{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.aboutme {
+    display: flex;
+    flex-wrap:wrap;
+    padding: 1%;
+    width: 100%;
+}
+
+.aboutme-header{
+    /* flex: 0 0 40%; */
+    font-size:x-large;
+    border-right: 2px solid darkturquoise;
+    padding: 0 5% 0 5%;
+}
+
+.aboutme-details {
+    flex: 0 1 60%;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    margin-left: 20px;
+    
+}
+
