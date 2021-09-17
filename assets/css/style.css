@@ -2,7 +2,7 @@
 header {
  
     width: 100%;
-    height: 60px;
+    height: 40px;
     background-color: #3f87a6;
     display: flex;
     justify-content: space-between;
@@ -14,6 +14,8 @@ header {
 header h1 {
     display: flex;
     justify-content:left;
+    align-content: center;
+    padding-bottom: 20px;
 
 }
 
@@ -27,7 +29,7 @@ nav ul {
   nav a {
     display: flex;
     justify-content: right;
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
     color: white;
   }
@@ -37,23 +39,18 @@ nav ul {
     display: flex;
     width:100%;
     padding: 1%;
-    height: 100px;
+    height: 40px;
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
 .banner p{
     color:black;
-    font-size: large;
-    padding: 40px;
-}
-#profile {
-    width 40px;
-    height: 100px;
-    
-}
+    font-size: x-large;
+    padding: 5px;
+}  
  
 /* Main content of the website */
 main{
@@ -68,17 +65,124 @@ main{
 }
 
 .aboutme-header{
+    width: 18%;
+    font-size:x-large;
+    border-right: 2px solid #3f87a6;
+    padding: 0 4% 0 4%;
+}
+
+#profile {
+    width: 60%;
+    height: 60%;
+}
+
+.aboutme-details {
+    flex: 0 1 60%;
+    flex-wrap: wrap;
+    line-height: 2.0;
+    margin-left: 20px;
+    font-size: large;
+    
+}
+
+#work {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 1%;
+    width: 100%;
+    height: 500px;
+
+}
+
+.work-header{
+    width: 25%
+    font-size:x-large;
+    border-right: 2px solid #3f87a6;
+    padding: 0 3.5% 0 4%;
+    height: 90%;
+    margin:0;
+}
+
+.work-details {
+    flex: 0 0 60%;
+    flex-wrap: wrap;
+    line-height: 1.5;
+    margin-left: -10px;
+        
+}
+.container {
+    display: flex;
+    flex: 0 0 60%;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+  }
+
+/* Prework:About Me Card */
+.card1{
+    width: 100%;   
+    position: relative;
+    color:black;
+}
+
+.card1 img {
+    width: 100%;
+    height: 175px;
+}
+
+/*Landing Page card*/
+.card2 {
+   width: 50%;
+   position: relative;
+   text-align: left;
+
+}
+
+.card2 img {
+    width:100%;
+    height: 175px;
+    text-decoration: none;
+    color:black;
+}
+
+/*Semantic Tagging Card Page card*/
+.card3 {
+    width: 50%;
+    position: relative;
+    text-align: left;
+
+}
+
+.card3 img {
+    width:100%;
+    height: 175px;
+}
+
+/* }
+.contact{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 1%;
+    width: 100%;
+}
+
+.contact-header{
     /* flex: 0 0 40%; */
     font-size:x-large;
     border-right: 2px solid darkturquoise;
     padding: 0 5% 0 5%;
 }
 
-.aboutme-details {
+.contact-details {
     flex: 0 1 60%;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     line-height: 1.5;
     margin-left: 20px;
-    
-}
-
+    text-decoration: none;
+    list-style-type: none;
+} */
