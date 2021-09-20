@@ -73,8 +73,7 @@ main{
 }
 
 #profile {
-    width: 200px;
-    height: 300px;
+    width: 80%;
 }
 
 .aboutme-details {
@@ -89,9 +88,6 @@ main{
 #work {
     display: flex;
     flex-wrap:wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
     padding: 1%;
     width: 100%;
     height: 30%;
@@ -99,11 +95,10 @@ main{
 }
 
 .work-header{
-    width: 19%;
+    width: 18.5%;
     font-size:large;
     border-right: 2px solid #3f87a6;
     padding: 0 3.5% 0 4%;
-    height: 100%;
     margin:0;
 
 }
@@ -184,28 +179,34 @@ footer {
 }
 
 /* Media Query Information */
-@media and screen (max-width=992px);
-    #profile{
-        width: 150px;
-        height: 225px;
-    }
-    @media and screen (max-width=800px);
-    #profile{
-        width: 100px;
-        height: 150px;
+/* @media screen and (max-width=992px){
     
-    }
-    @media and screen (max-width=576px);
-    #profile{
-        width: 100px;
-        height: 150px;
+    } */
+
     
+@media screen and (max-width:800px){
+    .aboutme {
+        flex-direction: column;
     }
-    .aboutme-header{ 
-        font-size: smaller;
-       }
-       .work-header{ 
-        font-size: smaller;
-       }
+    #profile{
+        width: 14%;
+    }
+    .aboutme-header{
+        border-right: none;
+        border-bottom: 2px solid #3f87a6;
+        width: unset;
+        padding-bottom: 25px;
+        }   
+    #work {
+        flex-direction: column;
+    }
+    .work-header{
+        border-right: none;
+        border-bottom: 2px solid #3f87a6;
+        margin-bottom: 5px;
+        width: unset;
+    } 
+    }
+    
     
 
